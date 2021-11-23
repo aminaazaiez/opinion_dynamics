@@ -17,6 +17,9 @@
 
 import scala.util.Random
 
+def test = "test"
+
+
 @main def dynamic =
   val random = new Random(42)
 
@@ -53,3 +56,5 @@ import scala.util.Random
       nodes(j) = xj + mu * (xi - xj)
 
   println(System.currentTimeMillis() - begin)
+
+  nodes
