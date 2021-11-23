@@ -1,0 +1,3 @@
+sbt "run ./network.csv"
+
+
